@@ -1,0 +1,13 @@
+.app-container {
+  border: 5px solid orchid;
+
+  height: 100vh; /* Alterado para altura total da viewport */
+
+  max-width: 1440px;
+  width: 100%;
+
+  margin: 0 auto;
+
+
+}
+

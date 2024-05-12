@@ -1,0 +1,245 @@
+/* content.component.css */
+
+/* Import da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Estilos para larguras maiores que 768px */
+main {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(0, 153, 255);
+  height: 94.4%;
+}
+
+.information-section {
+  border: 5px solid blue;
+  width: 100%;
+
+  height: 100%;
+}
+
+.information-box {
+  border: 5px solid rgb(0, 255, 136);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-container {
+  border: 5px solid black;
+  background-color: #E5E5E5;
+  margin-top: 90px;
+}
+
+.text-input {
+  border: none;
+  color: #0A3871;
+
+  width: 100%;
+  height: 100%;
+  padding-inline-start: 8%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+  background-color: #E5E5E5;
+}
+
+::placeholder {
+  color: #0A3871;
+  font-size: 1rem;
+}
+
+::placeholder::first-letter {
+  text-transform: uppercase;
+}
+
+.text-input:focus {
+  outline: none;
+}
+
+.info-box {
+  border: 5px solid rgb(208, 255, 0);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: self-end;
+  justify-content: end;
+}
+
+.info-container {
+  border: 5px solid black;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.info-container-limite {
+  display: flex;
+  flex-direction: row;
+  border: 5px solid rgb(62, 95, 35);
+  width: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  padding-inline-start: 7%;
+}
+
+.info-container-limite img {
+  border: 5px solid rgb(0, 4, 255);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.175em;
+}
+
+.information {
+  color: #495057;
+  font-size: 18px;
+  border: 5px solid rgb(0, 255, 13);
+  width: 100%;
+}
+
+/* Estilos para botões de criptografia/descriptografia */
+.button-box {
+  display: flex;
+  flex-direction: row;
+  align-items: self-end;
+  justify-content: center;
+  border: 5px solid rgb(43, 226, 211);
+  padding: 1em;
+  height: auto;
+  width: 100%;
+}
+
+.decrypt-btn,
+.encrypt-btn {
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  max-width: 45%;
+  margin: 0 5px;
+  font-size: 0.5rem;
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+.encrypt-btn {
+  background-color: #0A3871;
+  color: #FFFFFF;
+}
+
+/* Estilos para seção de cópia */
+.copy-section {
+  border: 5px solid black;
+  width: 100%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 1060px;
+  padding: 0.5em;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.image-search-box {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  border-radius: 2rem;
+}
+
+.search-image {
+  width: 100%;
+  height: 100%;
+  max-width: 336px;
+  max-height: 304px;
+  background-size: cover;
+  background: white;
+  background-image: url("../../assets/boneco.svg");
+  background-repeat: no-repeat;
+  border: none;
+  border-radius: 24px;
+  color: #0A3871;
+  border: 5px solid blue;
+  margin-bottom: 1em;
+}
+
+.search-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 1%;
+}
+
+.not-found-message {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 700;
+  line-height: 1.8em;
+}
+
+.info-message {
+  font-size: 0.7em;
+  text-align: center;
+  font-family: 'Inter';
+  font-weight: 400;
+  line-height: 1.6em;
+}
+
+.message:focus {
+  outline: none;
+}
+
+.container-text {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 8px; /* Espaçamento entre o texto e o botão */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Alinhar o conteúdo no topo */
+}
+
+.text {
+  width: 100%;
+  background-color: white;
+  word-wrap: break-word; /* Quebrar palavras longas */
+  height: 100%;
+  overflow-y: auto;
+  border-radius: 1rem;
+}
+
+.text p {
+  overflow-y: scroll;
+}
+
+/* Estilos para o botão de cópia */
+.copy-btn {
+  background: #D8DFE8;
+  border: 1px solid #0A3871;
+  border-radius: 24px;
+  color: #0A3871;
+  cursor: pointer;
+  max-height: 67px;
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.5rem;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.copy-btn:hover {
+  background-color: #0A3871;
+  color: #FFFFFF;
+}

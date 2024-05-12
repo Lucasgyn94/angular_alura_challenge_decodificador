@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+## Design para telas maiores de 768px de largura
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/d1b79205-12ca-4e37-a9f5-870f309ca9f8)
+
+## Design telas até 768px de largura
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/4a838edd-3aee-47fc-b424-5130aced2f7d)
+
+## Design telas até 375px de largura
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/c21fbd23-01a7-4cae-9f16-175a453e0b86)
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

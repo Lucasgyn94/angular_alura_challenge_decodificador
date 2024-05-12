@@ -3,7 +3,8 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Design para telas maiores de 768px de largura
-![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/d1b79205-12ca-4e37-a9f5-870f309ca9f8)
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/af7efeb6-9af1-41fc-becd-44c579712a31)
+
 
 ## Design telas até 768px de largura
 ![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/4a838edd-3aee-47fc-b424-5130aced2f7d)

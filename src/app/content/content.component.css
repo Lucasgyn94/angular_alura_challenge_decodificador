@@ -5,7 +5,7 @@ main {
   flex-direction: row;
   box-shadow: 1px 1px 2px 2px rgb(218, 217, 228);
   height: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .information-section {

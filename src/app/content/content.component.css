@@ -5,6 +5,7 @@ main {
   flex-direction: row;
   box-shadow: 1px 1px 2px 2px rgb(218, 217, 228);
   height: auto;
+  width: 90%;
 }
 
 .information-section {
@@ -21,6 +22,7 @@ main {
 .text-container {
   background-color: #E5E5E5;
   margin-top: 90px;
+  margin-bottom: 19.1em;
   margin-left: 2em;
   max-height: 288px;
   height: 100%;
@@ -63,7 +65,7 @@ main {
   flex-direction: column;
   align-items: self-end;
   justify-content: end;
-  margin-top: 16.2em;
+
 }
 
 .info-container {
@@ -234,7 +236,7 @@ main {
   display: flex;
   flex-direction: row;
 
-  border: ;
+  border: 1px solid rgba(255, 255, 255, 0);
 }
 
 .copy-btn {

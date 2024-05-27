@@ -1,13 +1,20 @@
 @media (max-width:375px) {
-  footer p, footer em {
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  footer p {
     font-size: 16px;
+    text-align: center;
 
   }
 }
 
 @media (max-width:768px) {
-  footer p, footer em {
-    font-size: 16px;
+  footer p {
+    font-size: 22px;
 
   }
 }

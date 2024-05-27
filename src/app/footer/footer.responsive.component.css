@@ -1,0 +1,13 @@
+@media (max-width:375px) {
+  footer p, footer em {
+    font-size: 16px;
+
+  }
+}
+
+@media (max-width:768px) {
+  footer p, footer em {
+    font-size: 16px;
+
+  }
+}

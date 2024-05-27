@@ -1,48 +1,47 @@
-/* content.component.css */
-
-/* Import da fonte */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-/* Estilos para larguras maiores que 768px */
 main {
   display: flex;
   flex-direction: row;
-  border: 5px solid rgb(0, 153, 255);
-  height: 94.4%;
+  height: 90vh;
+  box-shadow: 1px 1px 2px 2px rgb(218, 217, 228);
+
 }
 
 .information-section {
-  border: 5px solid blue;
   width: 100%;
-
   height: 100%;
 }
 
 .information-box {
-  border: 5px solid rgb(0, 255, 136);
   height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .text-container {
-  border: 5px solid black;
   background-color: #E5E5E5;
   margin-top: 90px;
+  margin-left: 2em;
+  max-height: 288px;
+  height: 100%;
+
+
+  max-width: 680px;
+  width: 100%;
 }
 
 .text-input {
   border: none;
   color: #0A3871;
-
   width: 100%;
   height: 100%;
-  padding-inline-start: 8%;
+  padding-inline-start: 7%;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-self: center;
-  background-color: #E5E5E5;
+  background-color: #F3F5FC;
 }
 
 ::placeholder {
@@ -59,7 +58,6 @@ main {
 }
 
 .info-box {
-  border: 5px solid rgb(208, 255, 0);
   height: 100%;
   width: 100%;
   display: flex;
@@ -69,7 +67,6 @@ main {
 }
 
 .info-container {
-  border: 5px solid black;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -79,15 +76,14 @@ main {
 .info-container-limite {
   display: flex;
   flex-direction: row;
-  border: 5px solid rgb(62, 95, 35);
+  max-width: 400px;
   width: 100%;
   align-items: center;
   justify-content: flex-start;
-  padding-inline-start: 7%;
+  margin-left: 3em;
 }
 
 .info-container-limite img {
-  border: 5px solid rgb(0, 4, 255);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -98,18 +94,14 @@ main {
 .information {
   color: #495057;
   font-size: 18px;
-  border: 5px solid rgb(0, 255, 13);
-  width: 100%;
 }
 
-/* Estilos para botões de criptografia/descriptografia */
 .button-box {
   display: flex;
   flex-direction: row;
   align-items: self-end;
   justify-content: center;
-  border: 5px solid rgb(43, 226, 211);
-  padding: 1em;
+  padding: 1em 2em;
   height: auto;
   width: 100%;
 }
@@ -130,21 +122,31 @@ main {
   font-weight: bold;
 }
 
+.encrypt-btn:hover {
+  background-color: #ffffff;
+  color: #0A3871;
+}
+
+.decrypt-btn:hover {
+  color: #D8DFE8;
+  background-color: #0A3871;
+}
+
 .encrypt-btn {
   background-color: #0A3871;
   color: #FFFFFF;
 }
 
-/* Estilos para seção de cópia */
 .copy-section {
-  border: 5px solid black;
   width: 100%;
   max-width: 400px;
-  height: 100%;
-  max-height: 1060px;
+  max-height: 944px;
+  height: auto;
   padding: 0.5em;
   background-color: #FFFFFF;
   border-radius: 2rem;
+  position: relative;
+  margin: 0.5rem;
 }
 
 .image-search-box {
@@ -169,7 +171,6 @@ main {
   border: none;
   border-radius: 24px;
   color: #0A3871;
-  border: 5px solid blue;
   margin-bottom: 1em;
 }
 
@@ -202,41 +203,50 @@ main {
 }
 
 .container-text {
-  height: 100%;
   width: 100%;
-  margin-bottom: 8px; /* Espaçamento entre o texto e o botão */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; /* Alinhar o conteúdo no topo */
+  max-height: 754px;
+  height: 100%;
+
 }
 
 .text {
   width: 100%;
   background-color: white;
-  word-wrap: break-word; /* Quebrar palavras longas */
+  word-wrap: break-word;
+  border-radius: 1rem;
+  padding: 0.5rem;
   height: 100%;
   overflow-y: auto;
-  border-radius: 1rem;
+
+  margin-bottom: 32px;
 }
 
 .text p {
-  overflow-y: scroll;
+  height: auto;
+}
+.container-btn {
+  max-height: 67px;
+  height: auto;
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  flex-direction: row;
+
+  border: ;
 }
 
-/* Estilos para o botão de cópia */
 .copy-btn {
   background: #D8DFE8;
   border: 1px solid #0A3871;
   border-radius: 24px;
   color: #0A3871;
   cursor: pointer;
-  max-height: 67px;
-  width: 100%;
+  width: calc(100% - 30px);
   padding: 0.5rem;
   font-size: 0.5rem;
   font-weight: bold;
-  margin: 10px auto;
 }
 
 .copy-btn:hover {

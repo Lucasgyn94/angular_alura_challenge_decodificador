@@ -1,13 +1,11 @@
 .app-container {
-  border: 5px solid orchid;
-
-  height: 100vh; /* Alterado para altura total da viewport */
-
+  max-height: 1024px;
+  height: 100%;
   max-width: 1440px;
   width: 100%;
-
   margin: 0 auto;
-
+  display: flex;
+  flex-direction: column; /* Garante que os elementos dentro do container sejam organizados em coluna */
 
 }
 

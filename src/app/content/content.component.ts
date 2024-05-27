@@ -26,8 +26,7 @@ export class ContentComponent {
   }
 
   descriptografar() {
-    // Implemente a função de descriptografia conforme necessário
-    this.textoOriginal = this.textoCriptografado
+    this.textoDescriptografado = this.textoCriptografado
      .replace(/enter/g, 'e')
      .replace(/imes/g, 'i')
      .replace(/ai/g, 'a')
@@ -38,8 +37,26 @@ export class ContentComponent {
     this.mostrarResultado = true;
   }
 
+
   copiarTexto() {
-    // Implemente a função de cópia conforme necessário
+    let textoParaCopiar: string = '';
+
+    if (this.textoCriptografado) {
+      textoParaCopiar = this.textoCriptografado;
+    } else if (this.textoDescriptografado) {
+      textoParaCopiar = this.textoDescriptografado;
+    }
+
+    if (textoParaCopiar) {
+      const areaTexto = document.createElement('textarea');
+      areaTexto.value = textoParaCopiar;
+      document.body.appendChild(areaTexto);
+      areaTexto.select();
+      document.execCommand('copy');
+      document.body.removeChild(areaTexto);
+      alert('Texto copiado com sucesso!');
+    }
   }
+
 
 }

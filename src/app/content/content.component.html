@@ -23,6 +23,7 @@
   <section class="copy-section">
     <div class="image-search-box">
       <div class="search-image" *ngIf="!textoCriptografado && !textoDescriptografado"></div>
+
       <div class="search-text" *ngIf="!textoCriptografado && !textoDescriptografado">
         <p class="not-found-message">Nenhuma mensagem encontrada</p>
         <p class="info-message">Digite um texto que você deseja criptografar ou descriptografar.</p>
@@ -31,8 +32,13 @@
       <div class="container-text" *ngIf="textoCriptografado || textoDescriptografado">
         <div class="text">
           <p>{{ textoCriptografado }}</p>
+          <p>{{ textoDescriptografado }}</p>
         </div>
-        <button class="copy-btn" (click)="copiarTexto()">Copiar</button>
+
+        <div class="btn-container">
+          <button class="copy-btn" (click)="copiarTexto()">Copiar</button>
+        </div>
+
       </div>
     </div>
   </section>

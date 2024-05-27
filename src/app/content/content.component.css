@@ -3,9 +3,8 @@
 main {
   display: flex;
   flex-direction: row;
-  height: 90vh;
   box-shadow: 1px 1px 2px 2px rgb(218, 217, 228);
-
+  height: auto;
 }
 
 .information-section {
@@ -64,6 +63,7 @@ main {
   flex-direction: column;
   align-items: self-end;
   justify-content: end;
+  margin-top: 16.2em;
 }
 
 .info-container {

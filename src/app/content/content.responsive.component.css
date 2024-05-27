@@ -68,8 +68,6 @@
 @media only screen and (max-width: 375px) {
   main {
     flex-direction: column;
-    max-height: 1715px;
-    height: auto;
   }
 
   .information-section {
@@ -146,5 +144,9 @@
   .copy-btn {
     margin-bottom: 1em;
 
+  }
+
+  .info-box {
+    margin-top: 1em;
   }
 }

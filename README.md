@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
 ## Sobre
-Na minha versão do projeto foi escolhido o framework Angular para gerenciamento e desenvolvimento da aplicação. Foi adicionado um cabeçalho, rodapé, responsividade, porém mantendo as cores originais.
+Na minha versão do projeto foi escolhido o framework Angular para gerenciamento e desenvolvimento da aplicação, onde pude atrelhar os meus conhecimentos do TypeScript que é um SuperSet do JavaScript (Basicamente possibilita tipar as nossas váriaves uma vez que o javascript possui uma tipagem fraca). Foi adicionado um cabeçalho, rodapé, responsividade, porém mantendo as cores originais.
 
 As "chaves" de criptografia que utilizaremos são:
 A letra "e" é convertida para "enter"
@@ -20,6 +20,9 @@ Requisitos:
 Por exemplo:
 "gato" => "gaitober"
 gaitober" => "gato"
+
+## Link GitHub Pages Para o Decodificador
+https://lucasgyn94.github.io/angular_alura_challenge_decodificador/
 
 ## Link do Design do Figma utilizado para construção do projeto
 https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16-802&t=A8QelxpmhDb2c4vC-0

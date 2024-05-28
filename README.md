@@ -2,15 +2,43 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
+## Sobre
+Na minha versão do projeto foi escolhido o framework Angular para gerenciamento e desenvolvimento da aplicação, onde pude atrelhar os meus conhecimentos do TypeScript que é um SuperSet do JavaScript (Basicamente possibilita tipar as nossas váriaves uma vez que o javascript possui uma tipagem fraca). Foi adicionado um cabeçalho, rodapé, responsividade, porém mantendo as cores originais.
+
+As "chaves" de criptografia que utilizaremos são:
+A letra "e" é convertida para "enter"
+A letra "i" é convertida para "imes"
+A letra "a" é convertida para "ai"
+A letra "o" é convertida para "ober"
+A letra "u" é convertida para "ufat"
+
+Requisitos:
+- Deve funcionar apenas com letras minúsculas
+- Não devem ser utilizados letras com acentos nem caracteres especiais
+- Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
+
+Por exemplo:
+"gato" => "gaitober"
+gaitober" => "gato"
+
+## Link GitHub Pages Para o Decodificador
+https://lucasgyn94.github.io/angular_alura_challenge_decodificador/
+
+## Link do Design do Figma utilizado para construção do projeto
+https://www.figma.com/design/tvFEYhVfZTjdJ5P24RGV21/Alura-Challenge---Desafio-1---L%C3%B3gica?node-id=16-802&t=A8QelxpmhDb2c4vC-0
+
 ## Design para telas maiores de 768px de largura
-![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/af7efeb6-9af1-41fc-becd-44c579712a31)
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/e8436c76-4262-4ad8-94b8-9b2bc4a25242)
 
 
 ## Design telas até 768px de largura
-![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/4a838edd-3aee-47fc-b424-5130aced2f7d)
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/639d9cc0-b696-4790-b671-2052c839c9e1)
+
 
 ## Design telas até 375px de largura
-![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/c21fbd23-01a7-4cae-9f16-175a453e0b86)
+
+![image](https://github.com/Lucasgyn94/angular_alura_challenge_decodificador/assets/91031320/6ddeab16-ccbb-408e-815a-7201f2f824fd)
+
 
 
 ## Development server

@@ -55,6 +55,7 @@ export class ContentComponent {
       document.execCommand('copy');
       document.body.removeChild(areaTexto);
       alert('Texto copiado com sucesso!');
+      this.textoOriginal = '';
     }
   }
 

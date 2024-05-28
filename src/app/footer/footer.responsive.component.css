@@ -1,4 +1,4 @@
-@media (max-width:375px) {
+@media (max-width:480px) {
   footer {
     display: flex;
     flex-direction: row;
@@ -18,3 +18,4 @@
 
   }
 }
+

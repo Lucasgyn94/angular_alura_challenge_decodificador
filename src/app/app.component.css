@@ -1,16 +1,15 @@
 .app-container {
-
-  padding: 1em;
-
-  max-height: 1024px;
-  height: 100vh;
-
+  margin: 0 auto;
   max-width: 1440px;
   width: 100%;
-
-  margin: 0 auto;
+  min-height: 100vh; /* Garante que o contêiner ocupe toda a altura da tela */
   display: flex;
-  flex-direction: column; /* Garante que os elementos dentro do container sejam organizados em coluna */
-  border: 1px solid rgb(218, 217, 228);
+  flex-direction: column; /* Organiza os elementos em coluna */
+  border: 2px solid #b3c1f7;
+
+  
 }
 
+.app-container app-content {
+  flex: 1; /* Faz o conteúdo ocupar o espaço disponível */
+}

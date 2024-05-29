@@ -1,10 +1,10 @@
 .app-container {
 
-  padding: 0.005em;
+  padding: 1em;
 
   max-height: 1024px;
-  height: 100vh;
-  
+  height: 100%;
+
   max-width: 1440px;
   width: 100%;
 
@@ -12,6 +12,5 @@
   display: flex;
   flex-direction: column; /* Garante que os elementos dentro do container sejam organizados em coluna */
   border: 1px solid rgb(218, 217, 228);
-
 }
 

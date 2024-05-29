@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main {
     flex-direction: column;
     align-items: center;
@@ -7,17 +7,17 @@
 
   .copy-section {
     max-height: 343px;
-    height: auto;
+    height: 100%;
     width: 100%;
     max-width: 700px;
     border-radius: 0;
     position: relative;
     border-radius: 1em;
-    margin: 1.5em;
+    margin: 1.5em 0em;
   }
 
   .info-container-limite {
-    padding-inline-start: 3%;
+    padding-left: 3%;
     margin: 0.3em;
   }
 
@@ -26,9 +26,15 @@
   }
 
   .copy-btn {
-    margin-bottom: 0;
+    margin-top: 1em;
     width: 100%;
     height: auto;
+  }
+
+  .image-search-box {
+    max-height: 133px;
+    height: 100%;
+    padding: 1em;
   }
 
   .search-image {
@@ -59,29 +65,28 @@
     padding: 0;
   }
   .text-container {
-    margin: 4em 0 18em 1em;
+    margin: 4em 0em 39.7em 1em;
   }
+
 }
 
-@media only screen and (max-width: 480px) {
-  main {
-    flex-direction: column;
-  }
+@media (max-width: 480px) {
+
 
   .information-section {
-    height: auto;
+    height: 100%;
   }
 
   .copy-section {
     max-width: 327px;
     width: 100%;
+
     max-height: 595px;
     height: auto;
+
     padding: 0;
   }
-  .text-input {
-    padding-left: 10px;
-  }
+
   .search-image {
     max-width: 100%;
     max-height: auto;
@@ -117,17 +122,27 @@
   .text-container {
     max-height: 624px;
     height: auto;
-    margin: 50px 0px 210px 0px;
+    width: 100%;
+    margin-left: 0;
+    padding-left: 0.8em;
+
+    margin: 4em 0em 20em 0em ;
+
+  }
+
+  .text-input {
+
+    width: 100%;
   }
 
   .button-box {
     width: 100%;
+    height: 100%;
 
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    margin-top: 1em;
     padding: 0;
 
   }
@@ -137,8 +152,8 @@
     max-width: 92%;
 
     height: 100%;
-    margin: 1em 0;
-
+    margin: 0;
+    margin-bottom: 0.8em;
   }
 
   .copy-btn {
@@ -155,6 +170,6 @@
 @media (min-width: 1441px) {
 
   .text-container {
-    margin-bottom: 16.8em;
+    margin-bottom: 32.2em;
   }
 }

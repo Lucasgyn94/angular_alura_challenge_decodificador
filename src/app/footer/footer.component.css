@@ -9,7 +9,8 @@ footer {
 }
 
 footer p {
-  font-size: 22px;
+  font-size: 1.5em;
+  padding: 0.5em;
 }
 
 footer em {

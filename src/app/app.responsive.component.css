@@ -8,7 +8,8 @@
 @media (max-width: 480px) {
   .app-container {
     max-height: 933px;
-    height: auto;
+    height: 100%;
+    width: 99%;
 
   }
 

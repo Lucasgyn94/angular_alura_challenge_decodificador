@@ -2,7 +2,6 @@
 
 main {
   display: flex;
-  flex-direction: row;
   border: 1px solid rgb(218, 217, 228);
   height: auto;
   width: 100%;

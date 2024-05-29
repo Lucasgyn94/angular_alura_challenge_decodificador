@@ -1,11 +1,11 @@
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
   .app-container {
     max-height: 1174px;
     height: auto;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .app-container {
     max-height: 933px;
     height: 100%;

@@ -1,0 +1,6 @@
+@media (max-width: 480px) {
+  header p {
+    font-size: 1em;
+    padding: 0;
+  }
+}

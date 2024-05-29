@@ -5,6 +5,7 @@
 
   main {
     flex-direction: column;
+    border: none;
   }
   .information-section {
     height: 100%;
